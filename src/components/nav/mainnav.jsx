@@ -4,7 +4,8 @@ import styles from './mainnav.module.css'
 
 const Mainnav = () => {
     return(
-        <div className={styles.wrapdiv}>
+       <div className='controlwidth'>
+         <div className={styles.wrapdiv}>
             <h1 className={styles.logo}><div>Logo</div></h1>
 
 
@@ -21,6 +22,7 @@ const Mainnav = () => {
                 <li><button className={styles.signup}>Sign up</button></li>
             </ul>
         </div>
+       </div>
     )
 }
 

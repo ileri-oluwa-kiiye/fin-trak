@@ -6,7 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+:root{
+  --max-width: 1300px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -21,3 +23,7 @@ li{
   list-style-type: none;
 }
 
+.controlwidth{
+  max-width: var(--max-width);
+  margin: auto;
+}

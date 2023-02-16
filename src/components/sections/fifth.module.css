@@ -1,12 +1,15 @@
 .wrapdiv li{
-    width: 150px;
+    width: 140px;
     background-color: var(---primary-color);
-    height: 211px;
+    height: 221px;
     padding: 30px 60px;
-    margin: 20px auto;
+    margin: 30px auto;
     border-radius: 20px;
 }
 
+.wrapdiv{
+    padding:5%;
+}
 .wrapdiv ul li{
     display: flex;
     flex-direction: column;
@@ -18,4 +21,11 @@
     height: 159px;
     border-radius: 1000px;
     background-color: white;
+}
+
+.wrapdiv li div{
+    text-align: center;
+    font-weight: 700;
+    padding-top: 30px;
+    font-size: 20px;
 }

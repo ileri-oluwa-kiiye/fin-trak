@@ -3,7 +3,7 @@ import style from "./third.module.css"
 const Fourthsection = () => {
     return (
 
-        <div>
+        <div className="controlwidth">
             <div className={style.section}>
                 <div className={style.service}>
                     <h1>

@@ -3,7 +3,7 @@ import styles from "./fifth.module.css"
 
 const Fifthsection = () => {
     return(
-        <div>
+        <div className="controlwidth">
             <div className={styles.wrapdiv}>
                 <ul>
                     <li>

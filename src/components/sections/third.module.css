@@ -11,3 +11,10 @@
     padding-top: 10vh;
     text-align: center;
 }
+
+@media screen and (max-width:900px) {
+    .wrapdiv h1{
+        font-size: 28px;
+        line-height: 35px;
+    }
+}
