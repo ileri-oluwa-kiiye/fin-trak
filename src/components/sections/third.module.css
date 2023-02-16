@@ -1,0 +1,13 @@
+.padding{
+    margin: 1% 10% 5% 10%;
+}
+
+.wrapdiv{
+    background-color: var(---primary-color);
+    border-radius: 20px;
+}
+
+.service{
+    padding-top: 10vh;
+    text-align: center;
+}
