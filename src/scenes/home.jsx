@@ -3,6 +3,7 @@ import Mainhero from "../components/mainhero/mainhero"
 import Secondhero from "../components/mainhero/secondhero"
 import Thirdsection from "../components/sections/third"
 import Fourthsection from "../components/sections/forth"
+import Fifthsection from "../components/sections/fifth"
 
 
 
@@ -14,7 +15,7 @@ const Home = () => {
             <Secondhero />
             <Thirdsection />
             <Fourthsection />
-            
+            <Fifthsection />
         </>
     )
 }
