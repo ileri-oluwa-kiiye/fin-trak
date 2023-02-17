@@ -10,6 +10,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+.wrapdiv li:hover{
+    color: var(--secondary-color);
+}
+
 .logo div{
     margin: auto;
     width: 70px;
@@ -97,7 +101,7 @@ button:hover{
     .wrapdiv{
         display: block;
         padding: 0%;
-        position: absolute;
+        position: fixed;
         top: 0px;
         z-index: 10;
         background-color: var(--secondary-color);

@@ -6,6 +6,7 @@ import Fourthsection from "../components/sections/forth"
 import Fifthsection from "../components/sections/fifth"
 import SixthSection from "../components/sections/sixth"
 import Seventhsection from "../components/sections/seventh"
+import Footer from "../components/sections/footer"
 
 
 
@@ -20,6 +21,7 @@ const Home = () => {
             <Fifthsection />
             <SixthSection />
             <Seventhsection />
+            <Footer/>
         </>
     )
 }
