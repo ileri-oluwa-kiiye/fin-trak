@@ -2,7 +2,6 @@ import styles from "./footer.module.css"
 import facebook from "../../img/facebook.png"
 import twitter from "../../img/twitter.png"
 import mail from "../../img/mail.png"
-import Mainhero from "../mainhero/mainhero"
 import instagram from "../../img/instagram.png"
 
 const Footer =() =>{
