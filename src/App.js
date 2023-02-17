@@ -1,5 +1,6 @@
 // import { BrowserRouter as Routes,  Route, Router } from "react-router-dom"
 import Home from "./scenes/home";
+// import Dashboard from "./scenes/dashboard";
 // import Mainhero from "./components/mainhero/mainhero";
 // import { Link } from "react-router-dom";
 
