@@ -1,0 +1,72 @@
+.welcome{
+    width: 60vw;
+    max-width: 870px;
+    padding: 30px;
+    background-color: rgb(255, 255, 255,1);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.welcome h1{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.welcome p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    max-width: 320px;
+}
+
+.welcome .image{
+    width: 300px;
+    max-width: 60vw;
+    height: 15vh;
+    margin: 5px;
+    background-color: #D9D9D9;;
+}
+
+.hrline{
+    border-radius: 10px;
+    width: 100%;
+    min-width: 30px;
+    height: 1px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+    .welcome {
+        flex-direction: column-reverse;
+    }
+
+    .welcome{
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 65vw;
+    }
+
+    .welcome .image{
+         margin: auto;
+         margin-bottom: 20px;
+         min-width: 60vw;
+         height: 30vw;
+         margin-top: 10px;
+    }
+}

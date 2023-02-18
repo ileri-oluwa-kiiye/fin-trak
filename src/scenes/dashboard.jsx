@@ -1,7 +1,8 @@
 import styles from "./dashboard.module.css"
 import Sidebar from "../components/nav/sidebar"
 import Topbar from "../components/nav/topbar"
-
+import Welcome from "../components/sections/welcome"
+import Cashbook from "../components/sections/cashbook"
 
 
 
@@ -13,10 +14,13 @@ const Dashboard = () => {
             </div>
             <div className={styles.content}>
                 <Topbar />
+                <div className="controlwidth">
+                    <Welcome />
+                    <div>
+                        <Cashbook />
+                    </div>
+                </div>
             </div>
-            {/* <Routes>
-                <Route path="/" element= {<Topbar />} />
-            </Routes> */}
         </div>
 
     )

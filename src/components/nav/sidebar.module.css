@@ -4,7 +4,7 @@
 .sidebar{
     background-color: #8E8686;
     width: 265px;
-    height: 100vh;
+    min-height: 100vh;
     font-family: "Poppins", sans-serif;
     display: flex;
     justify-content: space-between;
@@ -20,7 +20,9 @@
 
 
 .sidebar ul{
-    margin-top: 5vh;
+
+    
+    margin-top: calc(40vh - 290px);
 }
 
 
@@ -69,7 +71,7 @@
     border-radius: 20px;
     max-width: 142px;
     margin: auto;
-    margin-top: 3vh;
+    margin-top: calc(30vh-300px);
     padding: 24px;
 }
 

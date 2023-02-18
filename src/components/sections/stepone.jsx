@@ -8,6 +8,9 @@ const Stepone = () => {
 
   const handleFormSubmit = (values) => {
     console.log(values);
+    
+
+    
   };
 
   return (
