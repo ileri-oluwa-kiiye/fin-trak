@@ -46,7 +46,7 @@
 
 
 .div li{
-    padding: 13px 38.5px;
+    padding: 13px 44px;
     border-radius: 0px 99px 99px 0px;
     transition: color 0.3s ease;
 }
@@ -119,4 +119,8 @@
     .premium{
         margin-top: 5vw;
     }
+    .sidebar ul{
+        margin-top: 7vh;
+    }
+    
 }
