@@ -9,9 +9,6 @@ import icon from "../../img/navicon.png"
 
 
 const Sidebar = () => {
-
-    const [isCollapsed, setIsCollaosed] = useState(false);
-    const [selected, setSelected] = useState("Dashboard")
     return (
         <div className={styles.sidebar}>
             <h1><div>Logo</div></h1>

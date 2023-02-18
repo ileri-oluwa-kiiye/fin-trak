@@ -8,7 +8,7 @@ const Signup = () => {
         <div className="controlwidth">
             <div className={styles.flex}>
                 <div className={styles.image}></div>
-                <div>
+                <div className={styles.main}>
                     <div className={styles.steps}>
                         <div>
                             <p>1</p>

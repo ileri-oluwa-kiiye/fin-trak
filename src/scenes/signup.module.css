@@ -25,11 +25,18 @@
     display: flex;
 }
 
+.main{
+    width: fit-content;
+    margin: auto;
+}
+
 
 .image{
     margin: 4%;
     width: 35vw;
     height: 85vh;
+    max-width: 600px;
+    max-height: 800px;
     background-color: var(---primary-color);
 }
 
@@ -40,5 +47,13 @@
 
     .image{
         display: none;
+    }
+}
+
+@media screen and (min-width:1500px){
+    .flex{
+        height: max-content;
+        margin-top: 10vh;
+
     }
 }

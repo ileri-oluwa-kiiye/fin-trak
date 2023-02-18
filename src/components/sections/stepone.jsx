@@ -2,7 +2,6 @@ import { Box, Button, TextField } from "@mui/material";
 import { Formik } from "formik";
 import * as yup from "yup";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import { fontSize } from "@mui/system";
 
 const Stepone = () => {
   const isNonMobile = useMediaQuery("(min-width:600px)");
@@ -13,7 +12,7 @@ const Stepone = () => {
 
   return (
     <div className="controlwidth">
-        <h1 style={{textAlign:"center", fontSize:"40px"}}>Welcome to Fin-traka</h1>
+        <h1 style={{textAlign:"center", fontSize:"30px"}}>Welcome to Fin-traka</h1>
         <p style={{textAlign:"center", fontSize:"16px"}}>Open your account</p>
         <Box m="20px" maxWidth="500px" width="80vw" margin="30px auto">
 
