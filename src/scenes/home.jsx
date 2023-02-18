@@ -7,12 +7,14 @@ import Fifthsection from "../components/sections/fifth"
 import SixthSection from "../components/sections/sixth"
 import Seventhsection from "../components/sections/seventh"
 import Footer from "../components/sections/footer"
+import Mobilenav from "../components/nav/mobilenav"
 
 
 
 const Home = () => {
     return(
         <>
+            <Mobilenav />
             <Mainnav />
             <Mainhero />
             <Secondhero />

@@ -12,13 +12,13 @@
 
 .welcome h1{
     font-weight: 400;
-    font-size: 48px;
+    font-size: 44px;
     line-height: 72px;
 }
 
 .welcome p{
     font-weight: 400;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 22px;
     max-width: 320px;
 }
@@ -60,6 +60,15 @@
         margin-top: 40px;
         margin-bottom: 40px;
         width: 65vw;
+    }
+
+    .welcome h1{
+        font-size: 30px;
+    }
+
+    .welcome p{
+        font-size: 13px;
+        line-height: 18px;
     }
 
     .welcome .image{

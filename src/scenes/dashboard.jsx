@@ -2,7 +2,7 @@ import styles from "./dashboard.module.css"
 import Sidebar from "../components/nav/sidebar"
 import Topbar from "../components/nav/topbar"
 import Welcome from "../components/sections/welcome"
-import Cashbook from "../components/sections/cashbook"
+// import Cashbook from "../components/sections/cashbook"
 
 
 
@@ -19,7 +19,7 @@ const Dashboard = () => {
                 <div className="controlwidth">
                     <Welcome />
                     <div>
-                        <Cashbook />
+                        {/* <Cashbook /> */}
                     </div>
                 </div>
             </div>
