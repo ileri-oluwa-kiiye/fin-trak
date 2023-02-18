@@ -107,7 +107,7 @@
 } */
 
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:1000px) {
     .sidebar ul{
         margin-top: 13vh;
     }

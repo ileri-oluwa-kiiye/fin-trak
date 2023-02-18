@@ -40,7 +40,7 @@
     background-color: var(---primary-color);
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1000px) {
     .steps{
         font-size: 13px;
     }

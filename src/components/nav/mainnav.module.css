@@ -100,7 +100,7 @@ button:hover{
 }
 
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:1000px) {
     .wrapdiv{
         display: block;
         padding: 0%;

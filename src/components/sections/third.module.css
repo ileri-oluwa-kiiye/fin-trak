@@ -12,7 +12,7 @@
     text-align: center;
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:1000px) {
     .wrapdiv h1{
         font-size: 28px;
         line-height: 35px;
