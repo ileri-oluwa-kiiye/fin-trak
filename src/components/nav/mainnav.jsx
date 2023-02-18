@@ -1,4 +1,5 @@
 import styles from './mainnav.module.css'
+import { Link } from 'react-router-dom'
 
 
 
@@ -19,7 +20,7 @@ const Mainnav = () => {
 
             <ul className={styles.secondlist}>
                 <li><button className={styles.login}>Log in</button></li>
-                <li><button className={styles.signup}>Sign up</button></li>
+                <li><button className={styles.signup}><Link to="/signup" style={{color:'inherit', textDecoration: 'none'}}>Sign up</Link></button></li>
             </ul>
         </div>
        </div>

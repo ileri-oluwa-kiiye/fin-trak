@@ -38,6 +38,9 @@ ul{
     align-items: center;
 }
 
+button Link{
+    color: inherit;
+}
 
 button{
     padding: 10px;

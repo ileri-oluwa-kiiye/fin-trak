@@ -1,0 +1,44 @@
+
+
+.steps{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    width: max-content;
+    display: flex;
+    align-items:flex-start;
+}
+.steps .line{
+    margin:  0px -10px;
+}
+
+.steps .line img{
+
+    width: 60vw;
+    max-width: 600px;
+}
+
+.flex{
+    display: flex;
+}
+
+
+.image{
+    margin: 4%;
+    width: 35vw;
+    height: 85vh;
+    background-color: var(---primary-color);
+}
+
+@media screen and (max-width:800px) {
+    .steps{
+        font-size: 13px;
+    }
+
+    .image{
+        display: none;
+    }
+}
