@@ -1,5 +1,6 @@
 import styles from "./subdashboard.module.css"
 import arrow from "../../img/arrowdown.png"
+import Barchart from "./barchart"
 
 
 
@@ -17,14 +18,14 @@ const Cashbook = () => {
                     <button className={styles.primary}>View details</button>
                 </div>
                 <div className={styles.hrline}></div>
-                <div className={styles.h3text}>
+                {/* <div className={styles.h3text}>
                     Week |
                     Month |
                     Year |
-                </div>
+                </div> */}
                 <div className={styles.flex}>
                     <div className={styles.barchart}>
-                        Bar Chart
+                        <Barchart />
                     </div>
                     <div className={styles.details}>
                         <li>
