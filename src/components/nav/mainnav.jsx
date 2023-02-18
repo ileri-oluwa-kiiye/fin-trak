@@ -12,7 +12,7 @@ const Mainnav = () => {
 
             <ul className={styles.firstlist}>
                 <li className={styles.active}>Book keeping</li>
-                <li>Consultancy</li>
+                <li><Link to="/dashboard" style={{color:'inherit', textDecoration: 'none'}}>Dashboard</Link></li>
                 <li> Pricing  </li>
                 <li>Blog</li>
             </ul>

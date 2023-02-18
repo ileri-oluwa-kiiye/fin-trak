@@ -23,6 +23,20 @@
     font-size: 15px;
 }
 
+.topbar button img{
+    transition: transform 0.5s ease;
+
+}
+
+.topbar button:hover img{
+    transform: rotate(180deg);
+}
+
+
+.topbar button:hover {
+    color: black;
+}
+
 
 .topbar .icons{
     width: fit-content;

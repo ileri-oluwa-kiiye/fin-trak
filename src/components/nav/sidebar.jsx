@@ -16,32 +16,32 @@ const Sidebar = () => {
                 <div className={styles.div}>
                     <li>
                         <div><img src={icon} alt="" />
-                        </div> <div>Dashboard</div>
+                        </div> <div className={styles.text}>Dashboard</div>
                     
                     </li>
-                    <li>
+                    <li className={styles.active}>
                         <div><img src={icon} alt="" />
-                        </div> <div>Bookkeeping</div>
+                        </div> <div className={styles.text} >Bookkeeping</div>
                     </li>
                     <li>
                         <div><img src={icon} alt="" />
-                        </div> <div>Consultancy</div>
+                        </div> <div className={styles.text}>Consultancy</div>
                     </li>
                     <li>
                         <div><img src={icon} alt="" />
-                        </div> <div>Data entry</div>
+                        </div> <div className={styles.text}>Data entry</div>
                     </li>
-                    <li>
+                    {/* <li>
                         <div><img src={icon} alt="" /></div>
-                        <div>Blog</div>
-                    </li>
+                        <div className={styles.text}>Blog</div>
+                    </li> */}
                     <li>
                         <div><img src={icon} alt="" /></div> 
-                        <div>Setting</div>
+                        <div className={styles.text}>Setting</div>
                     </li>
                     <li className={styles.logout}>
                         <div><img src={icon} alt="" />
-                        </div> <div>Log out</div>
+                        </div> <div className={styles.text}>Log out</div>
                     </li>
                 </div>
                 
@@ -55,6 +55,14 @@ const Sidebar = () => {
                     ></li>
                 </Box> */}
             </ul>
+
+            <div className={styles.premium}>
+                <div className={styles.whitespace}></div>
+                <div>
+                    <h3>Explore more options</h3>
+                    <button>Go Premium</button>
+                </div>
+            </div>
         </div>
     )
 }
