@@ -12,7 +12,7 @@ const Stepone = () => {
 
   return (
     <div className="controlwidth">
-        <h1 style={{textAlign:"center", fontSize:"30px"}}>Welcome to Fin-traka</h1>
+        <h1 style={{textAlign:"center", fontSize:"30px"}}>Fin-traka</h1>
         <p style={{textAlign:"center", fontSize:"16px"}}>Open your account</p>
         <Box m="20px" maxWidth="500px" width="80vw" margin="30px auto">
 
@@ -147,7 +147,7 @@ const Stepone = () => {
       </Box>
       <Box display="flex" justifyContent="end" mt="20px">
         <Button type="submit"  style={{backgroundColor:"#D9D9D9", color:"black", fontSize: "14px", fontWeight:"600"}}>
-          Sign In
+          Sign Up
         </Button>
       </Box>
     </form>

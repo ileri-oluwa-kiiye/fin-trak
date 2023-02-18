@@ -3,6 +3,7 @@ import Home from "./scenes/home";
 import Dashboard from "./scenes/dashboard";
 import Signup from "./scenes/signup";
 import Stepone from "./components/sections/stepone";
+import Login from "./scenes/login";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/home" element={<Home />} />
           <Route path="/stepone" element={<Stepone />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </BrowserRouter>
   );
