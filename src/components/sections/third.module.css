@@ -13,8 +13,8 @@
 }
 
 @media screen and (max-width:1000px) {
-    .wrapdiv h1{
-        font-size: 28px;
-        line-height: 35px;
+    .wrapdiv,.wrapdivs h1{
+        font-size: 24px;
+        line-height: 31px;
     }
 }

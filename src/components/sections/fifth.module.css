@@ -29,3 +29,19 @@
     padding-top: 30px;
     font-size: 20px;
 }
+
+@media screen and (max-width:1000px) {
+    .wrapdiv li div{
+        font-size: 13px;
+        padding-top: 10px
+    }
+
+    .wrapdiv li{
+        padding: 15px 30px;
+    }
+
+    .wrapdiv p{
+        width: 100px;
+        height: 100px;
+    }
+}

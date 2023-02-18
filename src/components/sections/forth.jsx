@@ -3,18 +3,20 @@ import style from "./third.module.css"
 const Fourthsection = () => {
     return (
 
-        <div className="controlwidth">
-            <div className={style.section}>
-                <div className={style.service}>
-                    <h1>
-                        Our Services
-                    </h1>
-                    <p>
-                        
-                    </p>
+       <div className={style.wrapdivs}>
+             <div className="controlwidth">
+                <div className={style.section}>
+                    <div className={style.service}>
+                        <h1>
+                            Our Services
+                        </h1>
+                        <p>
+                            
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
+       </div>
     )
 }
 

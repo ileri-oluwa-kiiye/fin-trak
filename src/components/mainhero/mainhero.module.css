@@ -46,7 +46,7 @@
 }
 
 
-@media screen and (max-width:900px){
+@media screen and (max-width:1000px){
 
     .section{
         padding: 50px 30px;
@@ -56,12 +56,12 @@
         margin-top: 10vh;
     }
     .section p{
-        font-size: 12px;
+        font-size: 11px;
         line-height: 18px;
     }
 
     .section h1{
-        font-size: 30px;
+        font-size: 24px;
         line-height: 40px;
     }
 }
