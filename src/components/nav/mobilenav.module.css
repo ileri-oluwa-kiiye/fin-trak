@@ -110,7 +110,8 @@ button:hover{
 .flex{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    align-items: center;
+    padding: 20px 5vw;
 }
 
 @media screen and (max-width:1000px) {
@@ -126,6 +127,12 @@ button:hover{
         width: 1vw;
         overflow: hidden;
         transition: width 0.4s ease;
+    }
+
+    .logo{
+        font-weight: 700;
+        font-size: 24px;
+        color: grey;
     }
 
     button{

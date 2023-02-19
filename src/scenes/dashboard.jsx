@@ -2,8 +2,8 @@ import styles from "./dashboard.module.css"
 import Sidebar from "../components/nav/sidebar"
 import Topbar from "../components/nav/topbar"
 import Welcome from "../components/sections/welcome"
-// import Cashbook from "../components/sections/cashbook"
-
+import Cashbook from "../components/sections/cashbook"
+import Balancesheet from "../components/sections/balancesheet"
 
 
 
@@ -18,8 +18,9 @@ const Dashboard = () => {
                 <Topbar />
                 <div className="controlwidth">
                     <Welcome />
-                    <div>
-                        {/* <Cashbook /> */}
+                    <div className={styles.flex}>
+                        <Cashbook />
+                        <Balancesheet />
                     </div>
                 </div>
             </div>

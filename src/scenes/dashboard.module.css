@@ -12,6 +12,15 @@
 }
 
 
+.flex{
+  display: flex;
+  max-width: 60vw;
+}
+
+
+.flex div{
+  margin-right: 40px;
+}
 .app{
   display: flex;
 }
@@ -20,4 +29,9 @@
     .sidebar{
       display: none;
     }
+
+    .flex{
+      display: block;
+    }
   }
+

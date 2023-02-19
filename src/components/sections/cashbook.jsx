@@ -8,21 +8,16 @@ import Barchart from "./barchart"
 
 const Cashbook = () => {
     return(
-        <div>
+        <div className={styles.cover}>
             <div>
-                <div>
+                <div className={styles.heading}>
                     <div>
                         <h1>Cashbook</h1>
                         <p>Below is an overview of your sales and purchase</p>
                     </div>
-                    <button className={styles.primary}>View details</button>
+                    <button className={styles.secondary}>View details</button>
                 </div>
                 <div className={styles.hrline}></div>
-                {/* <div className={styles.h3text}>
-                    Week |
-                    Month |
-                    Year |
-                </div> */}
                 <div className={styles.flex}>
                     <div className={styles.barchart}>
                         <Barchart />
