@@ -2,6 +2,7 @@ import { Box, Button, TextField } from "@mui/material";
 import { Formik } from "formik";
 import * as yup from "yup";
 import useMediaQuery from "@mui/material/useMediaQuery";
+import { Link } from "react-router-dom"
 
 const Stepone = () => {
   const isNonMobile = useMediaQuery("(min-width:600px)");
@@ -150,7 +151,7 @@ const Stepone = () => {
       </Box>
       <Box display="flex" justifyContent="end" mt="20px">
         <Button type="submit"  style={{backgroundColor:"#D9D9D9", color:"black", fontSize: "14px", fontWeight:"600"}}>
-          Sign Up
+        <Link to="/dashboard" style={{color:'inherit', textDecoration: 'none'}}>Sign Up</Link>
         </Button>
       </Box>
     </form>

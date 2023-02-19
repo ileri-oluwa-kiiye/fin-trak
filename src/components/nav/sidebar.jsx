@@ -2,7 +2,7 @@ import styles from "./sidebar.module.css"
 // import { ProSidebar, Menu, MenuItem } from "react-pro-sidebar";
 import "react-pro-sidebar/dist";
 // import { Box, IconButton, Typography, useTheme } from '@mui/material';
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 // // import icon from '../img/navicon.png'
 import icon from "../../img/navicon.png"
 
@@ -42,7 +42,7 @@ const Sidebar = () => {
                         </li>
                         <li className={styles.logout}>
                             <div><img src={icon} alt="" />
-                            </div> <div className={styles.text}>Log out</div>
+                            </div> <div className={styles.text}><Link to="/" style={{color:'inherit', textDecoration: 'none'}}>Log Out</Link></div>
                         </li>
                     </div>
                     

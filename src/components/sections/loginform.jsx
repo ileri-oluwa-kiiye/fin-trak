@@ -2,12 +2,14 @@ import { Box, Button, TextField } from "@mui/material";
 import { Formik } from "formik";
 import * as yup from "yup";
 import useMediaQuery from "@mui/material/useMediaQuery";
+import { Link } from "react-router-dom";
 
 const Loginform = () => {
   const isNonMobile = useMediaQuery("(min-width:600px)");
 
   const handleFormSubmit = (values) => {
     console.log(values);
+    
   };
 
   return (
@@ -69,7 +71,7 @@ const Loginform = () => {
       </Box>
       <Box display="flex" justifyContent="end" mt="20px">
         <Button type="submit"  style={{backgroundColor:"#D9D9D9", color:"black", fontSize: "14px", fontWeight:"600"}}>
-          Login
+          <Link to="/dashboard" style={{color:'inherit', textDecoration: 'none'}}>Log In</Link>
         </Button>
       </Box>
     </form>

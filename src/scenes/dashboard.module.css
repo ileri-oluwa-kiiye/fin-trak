@@ -23,6 +23,8 @@
 .flex div{
   margin-right: 40px;
 }
+
+
 .app{
   display: flex;
 }
@@ -34,7 +36,6 @@
 
     .flex{
       display: block;
-      margin-left: 10vw;
     }
   }
 

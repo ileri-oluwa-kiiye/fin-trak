@@ -63,6 +63,7 @@
 .cover .heading{
     display: flex;
     width: 100%;
+    min-width: 32vw;
     padding: 5px 0px;
     justify-content: space-between;
     align-items: flex-start;
@@ -97,6 +98,10 @@ button.secondary{
 
 .flex li p{
     max-width: 180px;
+}
+
+.flex li img{
+    margin-right: 10px;
 }
 
 
@@ -138,6 +143,17 @@ button.primary:hover{
         width: 65vw;
     }
 
+    .cover li p{
+        line-height: 15px;
+        font-size: 10px;
+        min-width: 100px;
+        margin-right: 0px;
+    }
+
+    .cover li img{
+        width: 25px;
+    }
+
     .welcome h1{
         font-size: 30px;
     }
@@ -145,6 +161,37 @@ button.primary:hover{
     .welcome p{
         font-size: 13px;
         line-height: 18px;
+    }
+
+    .heading div{
+        min-width: 45vw;
+        margin-right: 10px
+    }
+
+    .heading div p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .cover .flex{
+        width: 72vw;
+        max-width: 480px;
+    }
+
+    .hrline{
+        width: 74vw;
+        max-width: 500px;
+    }
+
+    .cover{
+        width: 75vw;
+        max-width: 500px;
+        margin: 40px 0px;
+    }
+
+    .cover .heading{
+        width: 65vw;
+        max-width: 500px;
     }
 
     .welcome .image{
