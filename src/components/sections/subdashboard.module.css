@@ -34,7 +34,7 @@
 .hrline{
     border-radius: 10px;
     width: 100%;
-    min-width: 30px;
+    min-width: 32vw;
     height: 1px;
     margin: 5px 0px;
     background-color: black;
@@ -42,7 +42,7 @@
 
 .cover{
     max-width: 500px;
-    min-width: 35vw;
+    min-width: 32vw;
     background-color: white;
     border-radius: 20px;
     padding: 15px;
