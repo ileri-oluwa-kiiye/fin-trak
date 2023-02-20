@@ -1,35 +1,37 @@
 import styles from "./smallerdashboard.module.css"
+import style from "./blogdb.module.css"
 
 
 const Blog = () =>{
     return(
-        <div className={styles.wrapdiv}>
-            <div className={styles.blog}>
-                <div className={styles.header}>
+        <div className={style.cover}>
+            <div className={style.blog}>
+                <div className={style.header}>
                     <h1>Blog</h1>
-                    <button className={styles.secondary}>View all</button>
+                    <div><button className={styles.secondary}>View all</button></div>
                 </div>
-                <div className={styles.flex}>
+                <div className={style.hrline}></div>
+                <div className={style.flex}>
                     <li>
                         <div>
-                             <div className={styles.image}></div>
+                             <div className={style.image}></div>
                              <p>What is TIN & its importance</p>
                         </div>
-                        <button className={styles.primary}>Read</button>
+                        <div><button className={styles.primary}>Read</button></div>
                     </li>
                     <li>
                         <div>
-                             <div className={styles.image}></div>
+                             <div className={style.image}></div>
                              <p>What is TIN & its importance</p>
                         </div>
-                        <button className={styles.primary}>Read</button>
+                        <div><button className={styles.primary}>Read</button></div>
                     </li>
                     <li>
                         <div>
-                             <div className={styles.image}></div>
+                             <div className={style.image}></div>
                              <p>What is TIN & its importance</p>
                         </div>
-                        <button className={styles.primary}>Read</button>
+                        <div><button className={styles.primary}>Read</button></div>
                     </li>
                 </div>
             </div>

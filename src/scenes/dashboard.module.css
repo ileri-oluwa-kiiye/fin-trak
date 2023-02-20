@@ -19,6 +19,11 @@
   max-width: 60vw;
 }
 
+.flexx{
+  display: flex;
+  max-width: 60vw;
+}
+
 
 .flex div{
   margin-right: 40px;
@@ -29,13 +34,34 @@
   display: flex;
 }
 
+
+@media screen and (max-width:1025px) {
+  .content{
+    padding: 10px 12px;
+  }
+}
+
 @media screen and (max-width:1000px) {
     .sidebar{
       display: none;
     }
 
-    .flex{
+    .flex, .flexx{
       display: block;
+    }
+    .flexx{
+      margin: auto;
+    }
+
+    .flexx div{
+      max-width: 73vw;
     }
   }
 
+
+  @media screen and (max-width:500px) {
+    .flexx{
+      max-width: 90vw;
+    }
+
+  }

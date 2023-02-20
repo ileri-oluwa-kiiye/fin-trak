@@ -131,7 +131,7 @@ button.primary:hover{
 
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1000px) {
     .welcome {
         flex-direction: column-reverse;
     }
@@ -176,6 +176,10 @@ button.primary:hover{
     .cover .flex{
         width: 72vw;
         max-width: 480px;
+    }
+
+    button.primary, button.secondary{
+        padding: 3px 6px;
     }
 
     .hrline{
