@@ -1,5 +1,6 @@
 import styles from "./smallerdashboard.module.css"
 import style from "./profit.module.css"
+import Piechart from "./piechart"
 
 
 const Profit = () =>{
@@ -17,18 +18,8 @@ const Profit = () =>{
                 </div>
                 <div className={style.hrline}></div>
                 <div className={style.stats}>
-                    <div className="piechart">
-                        Pie Chart
-                    </div>
-                    <div className={style.info}>
-                        <div className={style.flex}>
-                            <div className={style.colorguide}></div>
-                            <p>Profit</p>
-                        </div>
-                        <div className={style.flex}>
-                            <div className={style.colorguide}></div>
-                            <p>Loss</p>
-                        </div>
+                    <div className="piechart" style={{width:"200px", height: "200px", margin:'30px auto'}}>
+                        <Piechart />
                     </div>
                 </div>
             </div>
