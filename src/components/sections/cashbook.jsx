@@ -1,6 +1,6 @@
 import styles from "./subdashboard.module.css"
 import arrow from "../../img/arrowdown.png"
-import Barchart from "./barchart"
+import Barchartt from "./barchart"
 
 
 
@@ -18,20 +18,20 @@ const Cashbook = () => {
                     <button className={styles.secondary}>View details</button>
                 </div>
                 <div className={styles.hrline}></div>
-                <div className={styles.flex}>
-                    <div className={styles.barchart}>
-                        <Barchart />
+                <div className={styles.fletx}>
+                    <div className={styles.barchart} style={{width:'300px', height:"190px", maxWidth:"60vw", minWidth:'270px'}}>
+                        <Barchartt />
                     </div>
                     <div className={styles.details}>
                         <li>
-                            <p id="moneyin">#70,000</p>
+                            <p id="moneyin">#80,000</p>
                             <img src={arrow} alt="" />
-                            <p>Money in</p>
+                            <p>Sales</p>
                         </li>
                         <li>
-                            <p id="moneyout">#30,000</p>
+                            <p id="moneyout">#55,000</p>
                             <img src={arrow} alt="" />
-                            <p>Money out</p>
+                            <p>Purchases</p>
                         </li>
                     </div>
                 </div>

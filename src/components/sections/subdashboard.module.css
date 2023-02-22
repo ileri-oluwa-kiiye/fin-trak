@@ -129,6 +129,34 @@ button.primary:hover{
 }
 
 
+.details{
+    display: flex;
+    max-width: 400px;
+    min-width: 260px;
+    justify-content: space-between;
+}
+
+.details li{
+    max-width: 140px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px 30px;
+    margin: 20px 0px;
+}
+
+.details li img{
+    height: 15px;
+    width: 1px;
+    transform: rotate(270deg);
+}
+
+.details li p{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
 
 
 @media screen and (max-width:1000px) {
